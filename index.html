@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head> 
+<body>
+    <label id="heading1">New Employees</label>
+    <script src="script.js"></script>
+    <form id="employeeForm" method="post">
+        <label for="name" id="namelbl">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="profession" id="professionlbl">Profession:</label>
+        <input type="text" id="profession" required>
+
+        <label for="age" id="agelbl">Age:</label>
+        <input type="number" id="age" required>
+
+        <div id="error" style="color: red;"></div>
+        <div id="success" style="color: green;"></div>
+        <button type="submit" id="addEmployee" onclick="addonclick()">Add Employee</button>
+      </form>
+    <label id="heading2">Added Employees</label>
+    <label for="" id="lbl">You have 0 Employees.</label>
+   
+    <div class="container">
+       <div id ="table">
+
+       </div> 
+        
+      
+    
+</body>
+</html>
